@@ -1,6 +1,15 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&display=swap');
 
+    .titulo
+    {
+        font-size: 50px;
+        background-color: yellow;
+        border-radius: 10px;
+        width: 350px;
+        text-align: center;
+        border-bottom: 100px;
+    }
     body
         {
             width: 100%;
