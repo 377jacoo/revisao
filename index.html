@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="estilo.css"> <!-- link para puxa arquivo do CSS-->
 </head>
 <body>
-    <div class="titulo"> Jogo da Velha </div>
+
+    <div onclick="Limpar()" class="titulo"> Jogo da Velha </div>
+
     <div class="tabuleiro">
         <div class="linha">
             <div onclick="Mostrar(1);" id="d1" class="celula"></div>
             <div onclick="Mostrar(2);" id="d2" class="celula"></div>
-            <div onclick="Mostrar(3);" id="d3"class="celula"></div>
+            <div onclick="Mostrar(3);" id="d3" class="celula"></div>
 
         </div>
         <div class="linha">
             <div onclick="Mostrar(4);" id="d4" class="celula"></div>
-            <div onclick="Mostrar(5);" id="d5"class="celula"></div>
+            <div onclick="Mostrar(5);" id="d5" class="celula"></div>
             <div onclick="Mostrar(6);" id="d6" class="celula"></div>
             
         </div>
@@ -34,129 +36,6 @@
     
 </body>
 
-<script>
-    //vamos criar nossas funções:
+<script src="script.js"> </script>
 
-    cliques = 0; //variável Global 
-
-    function Mostrar(qual)
-    {
-        cliques = cliques + 1
-
-        if (qual == 1)
-        {
-            if(cliques == 1)
-            {
-                d1.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d1.innerHTML = "O"
-                cliques = 0
-            }
-        
-        }
-        
-        if (qual == 2)
-        {
-            if(cliques == 1)
-            {
-                d2.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d2.innerHTML = "O"
-                cliques = 0
-            }
-        }
-        if (qual == 3)
-        {
-            if(cliques == 1)
-            {
-                d3.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d3.innerHTML = "O"
-                cliques = 0
-            }
-        }
-        if (qual == 4)
-        {
-            if(cliques == 1)
-            {
-                d4.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d4.innerHTML = "O"
-                cliques = 0
-            }
-        }
-        if (qual == 5)
-        {
-            if(cliques == 1)
-            {
-                d5.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d5.innerHTML = "O"
-                cliques = 0
-            }
-        }
-        if (qual == 6)
-        {
-            if(cliques == 1)
-            {
-                d6.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d6.innerHTML = "O"
-                cliques = 0
-            }
-        }
-        if (qual == 7)
-        {
-            if(cliques == 1)
-            {
-                d7.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d7.innerHTML = "O"
-                cliques = 0
-            }
-        }
-        if (qual == 8)
-        {
-            if(cliques == 1)
-            {
-                d8.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d8.innerHTML = "O"
-                cliques = 0
-            }
-        }
-        if (qual == 9)
-        {
-            if(cliques == 1)
-            {
-                d9.innerHTML = "X"
-            }
-            if(cliques == 2)
-            {
-                d9.innerHTML = "O"
-                cliques = 0
-            }
-        }
-    }
-    
-        
-
-    
-</script>
 </html>
