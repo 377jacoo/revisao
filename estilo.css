@@ -29,7 +29,7 @@
         }
         .tabuleiro
         {
-            width: 600px;
+            width: 100%;
             height: 600px;
             background-image: linear-gradient(150deg,lightskyblue,blue);
             border-color: black;
@@ -50,7 +50,7 @@
         .celula
         {
             cursor: pointer;
-            width: 150px;
+            width: 32%;
             height: 150px;
             background-color: aliceblue;
             box-shadow: 5px 5px black;
